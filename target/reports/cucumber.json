@@ -1,0 +1,324 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-02T03:29:16.689Z",
+        "line": 13,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2373342900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.LoginStepsDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1129990100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1105506000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepsDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2332702500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "steps.LoginStepsDefinition.user_clicks_on_Sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4543000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "steps.LoginStepsDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BankAndCashFeature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-02T03:29:23.666Z",
+        "line": 32,
+        "name": "User should be able to add new account",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-validation;user-should-be-able-to-add-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1090057100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on bank and cash menu",
+            "match": {
+              "location": "steps.NewAccountDefinition.user_clicks_on_bank_and_cash_menu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1282491600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "steps.NewAccountDefinition.user_clicks_on_new_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063401600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should land on add new account page",
+            "match": {
+              "location": "steps.NewAccountDefinition.user_should_land_on_add_new_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1117071400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters account title as \"AJ\u0027s Business Acct\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AJ\u0027s Business Acct\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_accounttitle_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663687100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters description as \"Brand New Business Acct\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brand New Business Acct\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_description_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629903800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters initial balance as \"2000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2000000\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_initial_balance_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648103400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters account number as \"4321443214324132\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4321443214324132\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_account_number_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620990100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters contact person as \"Capt America\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Capt America\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_contact_person_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594641900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters phone as \"32323\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"32323\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_phone_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 655801800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters internet banking url as \"https://techfios.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techfios.com/\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.NewAccountDefinition.user_enters_internet_banking_url_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1192909700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "steps.NewAccountDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079303500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should land on manage accounts page",
+            "match": {
+              "location": "steps.NewAccountDefinition.user_should_land_on_manage_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1031866300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should be displayed account created successfully message",
+            "match": {
+              "location": "steps.NewAccountDefinition.user_should_be_displayed_account_created_successfully_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BankAndCashFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios billing login page functionality validation",
+    "description": "",
+    "id": "techfios-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/NewAccount.feature",
+    "tags": [
+      {
+        "name": "@BankAndCashFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
